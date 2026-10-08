@@ -27,3 +27,6 @@ console.log(`Even Sum: ${evenSum}`);
     console.log(`Odd Sum: ${oddSum}`);
     console.log(`Odd Count: ${oddCount}`);
     console.log(`Odd Numbers: ${oddNumbers}`);
+
+
+    //Number_Analyzer
