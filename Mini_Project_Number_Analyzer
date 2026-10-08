@@ -1,0 +1,29 @@
+let evenSum = 0;
+let oddSum = 0;
+let evenCount = 0;
+let oddCount = 0;
+let evenNumbers = "";
+let oddNumbers = "";
+
+for(let i = 1; i<=20; i++){
+    if(i % 2 === 0){
+        console.log(`Even`);
+        evenNumbers = evenNumbers + i + " ";
+        evenSum = evenSum + i;
+        evenCount++
+        
+    }
+    else {
+        console.log (`Odd`);
+        oddNumbers = oddNumbers + i + " ";
+        oddSum = oddSum + i;
+        oddCount++;
+    }
+     
+}
+console.log(`Even Sum: ${evenSum}`);
+    console.log(`Even Count: ${evenCount}`)
+    console.log(`Even Numbers: ${evenNumbers}`);
+    console.log(`Odd Sum: ${oddSum}`);
+    console.log(`Odd Count: ${oddCount}`);
+    console.log(`Odd Numbers: ${oddNumbers}`);
